@@ -79,7 +79,7 @@ main {
 
 .my_failures h1 {
     font-weight: 700;
-    font-size: 51px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
@@ -172,7 +172,7 @@ main {
 /* fourth section end  */
 /* fifth section start  */
 .top_resulation {
-    width: 1140px;
+    width: 100%;
     height: 550px;
     display: flex;
     justify-content: center;
