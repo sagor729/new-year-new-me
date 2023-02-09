@@ -1,0 +1,168 @@
+/* utilities  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header design  */
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header_content {
+    width: 35%;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.header_content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.header_content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+
+.header_content button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+/* header End  */
+/* main start */
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Second Section start  */
+.my_failure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.my_image {
+    margin-right: 50px;
+}
+
+.my_failures h1 {
+    font-weight: 700;
+    font-size: 51px;
+    margin-bottom: 20px;
+}
+
+.my_failures p {
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.list {
+    margin-top: 10px;
+}
+
+.list i {
+    color: #42c542;
+    margin-right: 11px;
+    font-size: 20px;
+}
+
+/* Second Section end  */
+/* Third Section start  */
+.my_plans {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.my_plans h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_details img {
+    margin-bottom: 20px;
+
+}
+
+.plan_details h1 {
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.plan_details p {
+    margin-top: 10px;
+
+}
+
+/* Third Section end */
+/* fourth section start  */
+.banner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.banner_content {
+    width: 40%;
+    margin-left: 55px;
+}
+
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.banner_content button {
+    width: 132px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
